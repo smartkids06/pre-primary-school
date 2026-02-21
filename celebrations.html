@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celebrations - SmartKids</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Fredoka', sans-serif;
+}
+
+body{
+background:#ffffff;
+color:#333;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#ffcc00;
+}
+
+.logo-box{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo-box img{
+width:45px;
+}
+
+.logo-box h2{
+color:#6a00ff;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+.nav-links a{
+text-decoration:none;
+font-weight:600;
+color:#333;
+transition:0.3s;
+}
+
+.nav-links a:hover{
+color:#ff4081;
+}
+
+/* ===== HERO ===== */
+
+.hero{
+background:linear-gradient(to right,#ff6ec4,#ffcc00);
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+/* ===== SECTION ===== */
+
+.section{
+max-width:1100px;
+margin:auto;
+padding:70px 20px;
+}
+
+.celebration{
+margin-bottom:80px;
+}
+
+.celebration h2{
+color:#6a00ff;
+margin-bottom:15px;
+}
+
+.celebration p{
+margin-bottom:25px;
+line-height:1.6;
+}
+
+/* ===== GALLERY GRID ===== */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.08);
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+footer{
+background:#6a00ff;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+@media(max-width:768px){
+.nav-links{
+flex-wrap:wrap;
+}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header>
+<nav class="navbar">
+<div class="logo-box">
+<img src="images/logo.png" alt="SmartKids Logo">
+<h2>SmartKids Pre-Primary School</h2>
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="#">Celebrations</a></li>
+<li><a href="activities.html">Activities</a></li>
+<li><a href="admission.html">Admission</a></li>
+<li><a href="franchise.html">Franchises</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+<h1>SmartKids Celebrations 🎉</h1>
+<p>Moments, Memories & Milestones</p>
+</section>
+
+<section class="section">
+
+<!-- 1 ANNUAL GATHERING -->
+<div class="celebration">
+<h2>1️⃣ Annual Gathering 🎭</h2>
+<p>A joyful celebration showcasing children's talents, performances, and achievements.</p>
+<div class="gallery">
+<img src="images/celebrations/annual1.jpeg">
+<img src="images/celebrations/annual2.jpeg">
+<img src="images/celebrations/annual3.jpeg">
+<img src="images/celebrations/annual4.jpeg">
+<img src="images/celebrations/annual5.jpeg">
+<img src="images/celebrations/annual6.jpeg">
+<img src="images/celebrations/annual7.jpeg">
+<img src="images/celebrations/annual8.jpeg">
+<img src="images/celebrations/annual9.jpeg">
+<img src="images/celebrations/annual10.jpeg">
+<img src="images/celebrations/annual12.jpeg">
+<img src="images/celebrations/annual13.jpeg">
+
+</div>
+</div>
+
+<!-- 2 NAGARA PANCHAMI -->
+<div class="celebration">
+<h2>2️⃣ Nagara Panchami Celebrations 🐍</h2>
+<p>Traditional celebration helping children learn cultural values and traditions.</p>
+<div class="gallery">
+<img src="images/celebrations/nagara1.jpeg">
+<img src="images/celebrations/nagara2.jpeg">
+<img src="images/celebrations/nagara3.jpeg">
+<img src="images/celebrations/nagara4.jpeg">
+</div>
+</div>
+
+<!-- 3 RAKSHA BANDHAN -->
+<div class="celebration">
+<h2>3️⃣ Raksha Bandhan Celebrations 🎀</h2>
+<p>Celebrating bonding, love, and cultural traditions with creative activities.</p>
+<div class="gallery">
+<img src="images/celebrations/raksha1.jpeg">
+<img src="images/celebrations/raksha2.jpeg">
+<img src="images/celebrations/raksha3.jpeg">
+<img src="images/celebrations/raksha4.jpeg">
+</div>
+</div>
+
+<!-- 4 INDEPENDENCE DAY + DENTAL CAMP -->
+<div class="celebration">
+<h2>4️⃣ Independence Day & Free Dental Check-up 🇮🇳🦷</h2>
+<p>Patriotic celebration combined with wellness initiative for children's health.</p>
+<div class="gallery">
+<img src="images/celebrations/ind1.jpeg">
+<img src="images/celebrations/ind2.jpeg">
+<img src="images/celebrations/ind3.jpeg">
+<img src="images/celebrations/ind4.jpeg">
+</div>
+</div>
+
+<!-- 5 KRISHNA JANMASTAMI -->
+<div class="celebration">
+<h2>5️⃣ Krishna Janmashtami Celebrations 🦚</h2>
+<p>Colorful celebration with traditional costumes and devotional activities.</p>
+<div class="gallery">
+<img src="images/celebrations/krishna1.jpeg">
+<img src="images/celebrations/krishna2.jpeg">
+<img src="images/celebrations/krishna3.jpeg">
+<img src="images/celebrations/krishna4.jpeg">
+</div>
+</div>
+
+<!-- 6 TEACHERS DAY -->
+<div class="celebration">
+<h2>6️⃣ Teachers Day 👩‍🏫</h2>
+<p>Expressing gratitude and appreciation for our dedicated teachers.</p>
+<div class="gallery">
+<img src="images/celebrations/teacher1.jpg">
+<img src="images/celebrations/teacher2.jpg">
+<img src="images/celebrations/teacher3.jpg">
+<img src="images/celebrations/teacher4.jpg">
+</div>
+</div>
+
+<!-- 7 KANNADA RAJYOTSAVA -->
+<div class="celebration">
+<h2>7️⃣ Kannada Rajyotsava 💛❤️</h2>
+<p>Celebrating Karnataka's culture, heritage, and traditions with pride.</p>
+<div class="gallery">
+<img src="images/celebrations/kannada1.jpg">
+<img src="images/celebrations/kannada2.jpg">
+<img src="images/celebrations/kannada3.jpg">
+<img src="images/celebrations/kannada4.jpg">
+</div>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 SmartKids Pre-Primary School | Play • Learn • Grow 🌈</p>
+</footer>
+
+</body>
+</html>

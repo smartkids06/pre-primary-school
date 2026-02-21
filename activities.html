@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Activities - SmartKids</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Fredoka', sans-serif;
+}
+
+body{
+background:#fff;
+color:#333;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#ffcc00;
+}
+
+.logo-box{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo-box img{
+width:45px;
+}
+
+.logo-box h2{
+color:#6a00ff;
+}
+
+.nav-links{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+.nav-links a{
+text-decoration:none;
+font-weight:600;
+color:#333;
+}
+
+.nav-links a:hover{
+color:#ff4081;
+}
+
+/* ===== HERO ===== */
+
+.hero{
+background:linear-gradient(to right,#ff6ec4,#ffcc00);
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+/* ===== SECTION ===== */
+
+.section{
+padding:70px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.activity{
+margin-bottom:80px;
+}
+
+.activity h2{
+color:#6a00ff;
+margin-bottom:15px;
+}
+
+.activity p{
+margin-bottom:25px;
+line-height:1.6;
+}
+
+/* ===== GALLERY ===== */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+/* ===== 9:16 PORTRAIT IMAGES ===== */
+
+.gallery img.portrait{
+aspect-ratio:9/16;
+object-fit:cover;
+}
+
+.gallery img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+footer{
+background:#6a00ff;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+@media(max-width:768px){
+.nav-links{
+flex-wrap:wrap;
+}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+<nav class="navbar">
+<div class="logo-box">
+<img src="images/logo.png" alt="SmartKids Logo">
+<h2>SmartKids Pre-Primary School</h2>
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="celebrations.html">Celebrations</a></li>
+<li><a href="#">Activities</a></li>
+<li><a href="admission.html">Admission</a></li>
+<li><a href="franchise.html">Franchises</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+<h1>Fun & Learning Activities 🎨</h1>
+<p>Learning Through Play & Real Experiences</p>
+</section>
+
+<section class="section">
+
+<!-- 1 LAB ACTIVITIES -->
+<!-- 1 LAB ACTIVITIES -->
+<div class="activity">
+<h2>1️⃣ Lab Activities 🔬</h2>
+<p>Hands-on practical learning experiences to build curiosity and scientific thinking in young minds.</p>
+
+<div class="gallery">
+
+<!-- Normal 4 Images -->
+<img src="images/activities/lab1.jpeg">
+<img src="images/activities/lab2.jpeg">
+<img src="images/activities/lab3.jpeg">
+<img src="images/activities/lab4.jpeg">
+
+<!-- 6 Portrait 9:16 Images -->
+<img class="portrait" src="images/activities/lab5.jpeg">
+<img class="portrait" src="images/activities/lab6.jpeg">
+<img class="portrait" src="images/activities/lab7.jpeg">
+<img class="portrait" src="images/activities/lab8.jpeg">
+<img class="portrait" src="images/activities/lab9.jpeg">
+<img class="portrait" src="images/activities/lab10.jpeg">
+
+</div>
+</div>
+
+
+<!-- 2 SARASWATI POOJA -->
+<div class="activity">
+<h2>2️⃣ Saraswati Pooja & Akshara Abhyasa 🙏</h2>
+<p>Celebrating knowledge, culture, and traditional learning practices with devotion and joy.</p>
+
+<div class="gallery">
+<img src="images/activities/poja1.jpeg">
+<img src="images/activities/poja2.jpeg">
+<img src="images/activities/poja3.jpeg">
+<img src="images/activities/poja4.jpeg">
+</div>
+</div>
+
+<!-- 3 ASSEMBLY -->
+<div class="activity">
+<h2>3️⃣ Assembly & Shloka Recitation 📖</h2>
+<p>Morning assemblies and shloka recitation to build discipline, confidence, and moral values.</p>
+
+<div class="gallery">
+<img src="images/activities/assembly1.jpeg">
+<img src="images/activities/assembly2.jpeg">
+<img src="images/activities/assembly3.jpeg">
+<img src="images/activities/assembly4.jpeg">
+</div>
+</div>
+
+<!-- 4 BLACK & WHITE DAY -->
+<div class="activity">
+<h2>4️⃣ Black & White Celebration 🖤🤍</h2>
+<p>A fun themed celebration encouraging creativity and participation through dress and activities.</p>
+
+<div class="gallery">
+<img src="images/activities/bw1.jpeg">
+<img src="images/activities/bw2.jpeg">
+<img src="images/activities/bw3.jpeg">
+<img src="images/activities/bw4.jpeg">
+</div>
+</div>
+
+<!-- 5 YOGA DAY -->
+<div class="activity">
+<h2>5️⃣ Yoga Day Celebration 🧘</h2>
+<p>Promoting physical fitness, balance, and mindfulness through guided yoga sessions.</p>
+
+<div class="gallery">
+<img src="images/activities/yoga1.jpeg">
+<img src="images/activities/yoga2.jpeg">
+<img src="images/activities/yoga3.jpeg">
+<img src="images/activities/yoga4.jpeg">
+</div>
+</div>
+
+<!-- 6 ENVIRONMENT DAY -->
+<div class="activity">
+<h2>6️⃣ Environment Day Celebration 🌍</h2>
+<p>Teaching children the importance of nature, greenery, and protecting our planet.</p>
+
+<div class="gallery">
+<img src="images/activities/env1.jpeg">
+<img src="images/activities/env2.jpeg">
+<img src="images/activities/env3.jpeg">
+<img src="images/activities/env4.jpeg">
+</div>
+</div>
+
+<!-- 7 PICNIC -->
+<div class="activity">
+<h2>7️⃣ Picnic – Glass House & Agadi Farm House 🌿</h2>
+<p>Outdoor educational trips filled with fun, exploration, and joyful bonding experiences.</p>
+
+<div class="gallery">
+<img src="images/activities/picnic1.jpeg">
+<img src="images/activities/picnic2.jpeg">
+<img src="images/activities/picnic3.jpeg">
+<img src="images/activities/picnic4.jpeg">
+<img src="images/activities/picnic5.jpeg">
+<img src="images/activities/picnic6.jpeg">
+<img src="images/activities/picnic7.jpeg">
+<img src="images/activities/picnic8.jpeg">
+</div>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 SmartKids Pre-Primary School | Play • Learn • Grow 🌈</p>
+</footer>
+
+</body>
+</html>
